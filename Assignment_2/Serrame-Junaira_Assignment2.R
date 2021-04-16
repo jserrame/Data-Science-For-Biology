@@ -1,4 +1,4 @@
-# Project owner: Junaira Serrame, 500711485
+# Project owner: Aira Serrame
 ### Date: February 26, 2021
 ### Project detail: This project is for BLG610 Assignment 2: Projects, Coding Practice, Workflows, and R Markdown.
 
