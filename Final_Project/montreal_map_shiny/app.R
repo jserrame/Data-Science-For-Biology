@@ -1,7 +1,7 @@
 ######################################
 # BLG610 - Data Science for Biology
-# Data VisualizationFinal Project
-# Author: Junaira Serrame 500711485
+# Final Project
+# Author: Aira Serrame 500711485
 # Published: April 12, 2021
 ######################################
 
