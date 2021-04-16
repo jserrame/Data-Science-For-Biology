@@ -1,4 +1,4 @@
-# Project owner: Junaira Serrame, 500711485
+# Project owner: Aira Serrame, 500711485
 ### Date: March 13, 2021
 ### Project detail: This project is for BLG610 Assignment 3: Tidy Data and QA/QC
 
