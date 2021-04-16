@@ -12,6 +12,5 @@ Topics covered:
 * **Visualize & Engage:** Spatial applications; Making a map of a biological system (cells to populations)
 * **Analyze:** Attribute and spatial data operations
 * Creating web applications using R code
-* Creating web applications using R code
 * Metadata and Preserving data
 * Future Challenges
