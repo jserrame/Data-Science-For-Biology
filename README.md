@@ -9,7 +9,7 @@ Topics covered:
 * **Manage Data:** Project management overview. Data Science workflow, data manipulation, scripts, exploratory data analysis; R Markdown an authoring framework
 * **Wrangle (part 1):** Tidy data; tidy projects; tidy folders
 * **Wrangle (part 2):** Dealing with relational data, Date Cleaning: Strings, Factors, and Dates
-* **Visualize & Engage:** Spatial applications; Making a map of your biological system (cells to populations)
+* **Visualize & Engage:** Spatial applications; Making a map of a biological system (cells to populations)
 * **Analyze:** Attribute and spatial data operations
 * Creating web applications using R code
 * Creating web applications using R code
