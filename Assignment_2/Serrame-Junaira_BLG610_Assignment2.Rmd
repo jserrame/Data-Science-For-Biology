@@ -1,0 +1,49 @@
+---
+title: "BLG610 Assignment 2: Projects, Coding Practice, Workflows, and R Markdown"
+author: "Junaira Serrame"
+date: "26/02/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***
+**Project detail:** The surveys_complete.csv data file contains records from a survey of rodents on different treatment plots. Using the tools learned from weeks 3 and 4, data visualization and transformation were done on the surveys_complete.csv data.
+
+***
+
+> #### The R packages used in this project are ggplot2, tidyverse, and dplyr.
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+```
+
+
+
+> #### The first step is to read the surveys_complete.csv file.
+```{r}
+surveys_complete <- read.csv("/Users/airaserrame/Desktop/BLG610 - Data Science for Biology/R_proj/BLG610_Assignment2/data/surveys_complete.csv")
+view(surveys_complete)
+dim(surveys_complete)
+```
+##### From this, we find that the survey includes 30,463 rodents and 14 different attributes.
+
+
+> #### In this script, we'll take a look at the number of ***Sigmodon hispidus (S. hispidus)*** that were caught in the different plots. 
+```{r}
+#To make our script look neater, we'll use the pipe tool (%>%) in our code
+surveys_complete %>% #creates a table with subsets that we're only interested in. 
+  select(genus, species, plot_type, weight) %>%  #only selects for genus, species, plot_type, and weight
+  filter(genus == "Sigmodon") %>% #returns a new data frame that only contains "Sigmodon"
+  filter(species == "hispidus") %>% #returns a new data frame that only contains "hispidus"
+  group_by(plot_type) %>% #this line groups the new genus and species dataframes based on plot_type
+  count(plot_type) #this line counts the number of S. hispidus in each plot_type
+```
+##### Here, we find that there are 42 ***S. hispidus*** in the control plot, 61 in the Long-term Krat Exclosure, 9 in the Rodent Exclosure, 15 in the Short-term Krat Exclosure, and 1 in the Spectab Exclosure. 
+
+
+
+
