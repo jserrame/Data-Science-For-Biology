@@ -1,6 +1,6 @@
 ---
 title: "BLG610 Assignment 2: Projects, Coding Practice, Workflows, and R Markdown"
-author: "Junaira Serrame"
+author: "Aira Serrame"
 date: "26/02/2021"
 output: html_document
 ---
